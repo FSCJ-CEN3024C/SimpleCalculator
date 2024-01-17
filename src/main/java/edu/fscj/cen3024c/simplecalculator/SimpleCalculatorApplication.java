@@ -3,6 +3,10 @@
 // 1/9/2024
 // Template for calculator application
 
+// D. Locke
+// 1/16/2024
+// added method for multiplying, dividing, adding, and subtracting two numbers
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -10,6 +14,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SimpleCalculatorApplication {
+
+    public static int multiply(int num1, int num2) { return num1 * num2; }
+
+    public static int divide(int num1, int num2) { return num1 / num2; }
+
+    public static int add(int num1, int num2) { return num1 + num2; }
+
+    public static int subtract(int num1, int num2) { return num1 - num2; }
     public static void main(String[] args) {
         SpringApplication.run(SimpleCalculatorApplication.class, args);
 
