@@ -1,5 +1,5 @@
 // SimpleCalculatorApplication.java
-// D. Singletary
+// Dayne Allen-Wright and Anthony Greene
 // 1/9/2024
 // Template for calculator application
 
