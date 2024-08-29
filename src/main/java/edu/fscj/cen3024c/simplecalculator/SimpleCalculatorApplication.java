@@ -1,6 +1,6 @@
 // SimpleCalculatorApplication.java
-// D. Singletary
-// 1/9/2024
+// Dayne Wright
+// 8/28/2024
 // Template for calculator application
 
 package edu.fscj.cen3024c.simplecalculator;
