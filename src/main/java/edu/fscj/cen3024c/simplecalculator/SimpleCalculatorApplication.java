@@ -16,19 +16,19 @@ public class SimpleCalculatorApplication {
         // Test the multiply function
         int number1 = 10; // This can be input from the user or arguments
         int number2 = 5; // This can be input from the user or arguments
-        int result = multiply(number1, number2);
+        int result = SimpleCalculator.multiply(number1, number2);
         System.out.println("Multiply result is: " + result);
 
         // Test the divide function
-        result = divide(number1, number2);
+        result = SimpleCalculator.divide(number1, number2);
         System.out.println("Divide result is: " + result);
 
         // Test the add function
-        result = add(number1, number2);
+        result = SimpleCalculator.add(number1, number2);
         System.out.println("Add result is: " + result);
 
         // Test the subtract function
-        result = subtract(number1, number2);
+        result = SimpleCalculator.subtract(number1, number2);
         System.out.println("Add result is: " + result);
     }
 }
