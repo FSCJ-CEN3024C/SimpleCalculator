@@ -3,6 +3,11 @@
 // 1/9/2024
 // Template for calculator application
 
+// SimpleCalculatorApplication.java
+// C. Burgos
+// 1/8/2025
+// Added functions and changed print statement on line 37
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -29,6 +34,23 @@ public class SimpleCalculatorApplication {
 
         // Test the subtract function
         result = subtract(number1, number2);
-        System.out.println("Add result is: " + result);
+        // System.out.println("Add result is: " + result);
+        System.out.println("Subtract result is: " + result);
+    }
+
+    public static int multiply(int number1, int number2) {
+        return number1 * number2;
+    }
+
+    public static int divide(int number1, int number2) {
+        return number1 / number2;
+    }
+
+    public static int add(int number1, int number2) {
+        return number1 + number2;
+    }
+
+    public static int subtract(int number1, int number2) {
+        return number1 - number2;
     }
 }
